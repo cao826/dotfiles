@@ -1,0 +1,40 @@
+filetype plugin indent on
+syntax on
+
+"Keep 250 items in history"
+set history=250
+
+"Show where the cursor is"
+set ruler
+
+"Show what commands I am typing"
+set showcmd
+
+"Keep this number of lines above and below the cursor"
+set scrolloff=5
+
+"Highlight search matches"
+set hlsearch
+set incsearch
+
+"Turn on line numbers"
+set number
+
+"Make indentation consistent"
+set ai
+
+set bg=dark
+
+
+set tabstop=4
+
+set expandtab
+set shiftwidth=4
+
+filetype plugin on
+set omnifunc=syntaxcomplete#Complete
+
+set backspace=indent,eol,start
+set hidden
+filetype plugin indent on
+syntax on
